@@ -23,9 +23,18 @@ h1 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.serv-container {
-  margin-top: 40%;
+@media screen and (min-width: 756px) {
+  .serv-container {
+    margin-top: 40% !important;
+  }
 }
+
+.serv-container {
+  margin-top: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .serv-container img {
   width: 50px;
 }
